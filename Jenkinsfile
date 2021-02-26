@@ -10,7 +10,7 @@ pipeline {
           sh 'chmod +x owasp-dependency-check.sh'
           
           sh 'bash owasp-dependency-check.sh'
-          sh 'cat /var/lib/jenkins/workspace/OWASP-test/odc-reports/dependency-check-report.xml'
+          
          
             
         }
